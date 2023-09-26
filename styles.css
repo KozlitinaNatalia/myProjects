@@ -1,0 +1,248 @@
+:root {
+    --button-color: #6c63ff;
+    --background-color: #f9f7fe;
+    --primary-font: "Poppins", sans-serif;
+    --secondary-font: "Playfair Display", serif;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: #000000;
+    font-family: var(--secondary-font);
+    font-weight: bold;
+  }
+  
+  h2 {
+    font-size: 64px;
+  }
+  
+  h3 {
+    font-size: 48px;
+  }
+   
+  h3 a {
+    color: black;
+    text-decoration: none;
+  }
+  
+  p {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+  }
+  
+  .hero {
+    background-color: var(--background-color);
+    text-align: center;
+    padding: 160px 20px;
+  }
+  
+  .hero h1 {
+    /* font-family: var(--secondary-font); */
+    font-size: 96px;
+    line-height: 1.5;
+  }
+  
+  .hero p {
+    font-family: var(--primary-font);
+    font-size: 36px;
+    font-weight: bold;
+    color: #272142;
+    margin: 0;
+  }
+  
+  .hero h2 {
+    font-weight: normal;
+    font-size: 24px;
+    color: #272142;
+    line-height: 1.5;
+  }
+  
+  .content-container {
+    padding: 60px 20px;
+  }
+  
+  .content h1 {
+    font-size: 54px;
+    line-height: 80px;
+  }
+  
+  .content h2 {
+    font-size: 18px;
+    font-family: var(--primary-font);
+  }
+  
+  .content h3 {
+    font-size: 24px;
+    font-family: var(--primary-font);
+    line-height: 1.5;
+    /* margin: 20px 0 0; */
+  }
+  
+  .content p {
+    /* margin: 0;
+    padding: 0; */
+    font-size: 14px;
+  }
+  
+  .content {
+    /* margin: 30px; */
+    margin: 0px;
+  }
+  
+  .hero .btn-main,
+  .content-container .btn-main,
+  .contact-box .btn-main {
+    background-color: var(--button-color);
+    color: #ffff;
+    border: var(--button-color);
+    padding: 18px 30px;
+    border-radius: 4px;
+    font-family: var(--primary-font);
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 500;
+  }
+  
+  a.btn-outline {
+    color: var(--button-color);
+    border: 1px solid var(--button-color);
+    padding: 18px 30px;
+    border-radius: 4px;
+    /* font-family: var(--primary-font); */
+    font-size: 18px;
+    line-height: 27px;
+    /* font-weight: 500; */
+  }
+  
+  section {
+    margin-bottom: 30px;
+  }
+  .blue-button {
+    margin: 20px;
+    border-radius: 4px;
+    padding: 20px 15px;
+    text-decoration: none;
+    text-transform: capitalize;
+    background: #212529;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+    color: white;
+  }
+
+  .project-description {
+    padding: 80px 60px;
+  }
+  
+  .logo {
+    /* max-width: 150px; */
+    max-height: 40px;
+  }
+  
+  nav {
+    padding: 20px 0;
+  }
+  
+  nav ul {
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav li {
+    display: inline;
+    list-style: none;
+    line-height: 42px;
+    margin-left: 15px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #272142;
+    transition: all 100ms ease-in-out;
+  }
+  
+  nav a:hover,
+  nav li.active a {
+    color: var(--button-color);
+  }
+  
+  footer {
+    margin: 60px 0;
+  }
+  
+  footer .contact-box {
+    background-color: var(--background-color);
+    padding: 30px 120px;
+    border-radius: 10px;
+  }
+  
+  footer .contact-box p {
+    margin: 0;
+  }
+  
+  footer .email-link {
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+    text-align: center;
+  }
+  
+  footer .email-link:hover {
+    color: var(--button-color);
+  }
+  
+  footer .social-links a {
+    margin: 0 20px;
+    color: var(--button-color);
+    background-color: var(--background-color);
+    padding: 10px 14px;
+    font-size: 18px;
+    border-radius: 50%;
+    transition: all 100ms ease-in-out;
+    /* width: 18px;
+    height: 18px; */
+  }
+  
+  footer .social-links a:hover {
+    color: white;
+    background-color: var(--button-color);
+  }
+  
+  @media (max-width: 980px) {
+    .hero h1 {
+      font-size: 44px;
+      margin-top: 20px;
+    }
+  
+    h2 {
+      font-size: 44px;
+    }
+  
+    h3 {
+      font-size: 26px;
+    }
+  
+    .hero {
+      padding: 80px 20px;
+    }
+  
+    .content {
+      text-align: center;
+      padding: 0;
+    }
+  
+    .project-description {
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      font-size: 12px;
+    }
+  
+    /* footer .contact-box {
+      padding: 30px;
+    } */
+  }
